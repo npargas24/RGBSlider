@@ -31,7 +31,7 @@ struct ContentView: View {
                     onEditingChanged: { editing in
                         isEditing = true
                     }
-                ) // step:1
+                ) 
                 .accentColor(.red)
                 Text("Blue")
                 Text(
@@ -43,7 +43,7 @@ struct ContentView: View {
                     onEditingChanged: { editing in
                         isEditing = true
                     }
-                ) // step:1
+                ) 
                 .accentColor(.blue)
                 Text("Green")
                 Text(
@@ -55,7 +55,7 @@ struct ContentView: View {
                     onEditingChanged: { editing in
                         isEditing = true
                     }
-                ) // step:1
+                ) 
                 .accentColor(.green)
             }
             
